@@ -7,6 +7,8 @@ Recently data scientists have started trying out GAN models for stock price pred
 
 Therefore, in this project I created a model for forecasting Amazon, Google, Microsoft, Apple, and Meta stock prices which takes into account not only historical data and technical indicators, but also such external factors influencing the market as the mood of traders and brand reputation, which is represented in social media posts.
 
+Tweets on Microsoft, Google, Apple, Meta, and Amazon were extracted from a Kaggle dataset. The dataset contains tweets for top 25 most watched stock tickers on Yahoo Finance from 30-09-2021 to 30-09-2022. Additionally, stock market price and volume data for corresponding dates and stocks were added. 
+
 The algorithm is broken down into 5 sections:
 1. Import packages
 2. Get weekly sentiment for stock ticker
